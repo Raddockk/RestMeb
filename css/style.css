@@ -1,0 +1,83 @@
+:root{
+    --primary-black: #444444;
+    --primary-white: #FFFFFF;
+    --secondary-gray: #7A7A7A;
+    --secondary-light-gray: #C1C1C1;
+}
+
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+}
+
+.container{
+    max-width: 1758px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header{
+    background-color:var(--primary-white) ;
+    font-size: 1rem;
+}
+
+.header__wrapper{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.header__block{
+    
+}
+
+.header__block:last-child{
+    
+}
+
+.city-name{
+    margin-left: 20px;
+    color: var(--secondary-gray);
+    text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nav__link{
+    
+
+    color: var(--secondary-gray);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.nav__link:last-child{
+    margin-right: 0px;
+}
+
+.number{
+    display: flex;
+    justify-content: space-between;
+}
+
+.call{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+
+.phone-number{
+    margin-left: 20px;
+    color: var(--secondary-gray);
+    text-decoration: none;
+}
