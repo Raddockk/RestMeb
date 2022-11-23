@@ -309,6 +309,7 @@ line-height: 150%;
 .arrow {
     display: flex;
     align-items: center;
+    margin-top: 6px;
 }
 
 .popular__categories {
@@ -516,6 +517,11 @@ line-height: 150%;
     border-left: 0;
 }
 
+.brend__catalog {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
 .brend__partners {
     max-width: 640px;
     max-height: 560px;
@@ -529,10 +535,29 @@ line-height: 150%;
     margin-top: 120px;
 }
 
+.brend__cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
 .brend__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     max-width: 320px;
     max-height: 280px;
     width: 100%;
     height: 100vw;
     border: 1px solid var(--secondary-light-gray)
+}
+
+.brend__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 640px;
+    max-height: 280px;
+    width: 100%;
+    height: 100vw;
+    border: 1px solid var(--secondary-light-gray);
 }
