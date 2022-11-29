@@ -107,6 +107,22 @@ font-size: 1rem;
 line-height: 150%;
 }
 
+.body3 {
+    font-family: 'Montserrat-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 0.875rem;
+line-height: 145%;
+}
+
+.subtitle {
+    font-family: 'Montserrat-SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 145%;
+}
+
 .container {
     position: relative;
     max-width: 1920px;
@@ -342,11 +358,21 @@ line-height: 150%;
     margin: 0;
 }
 
+.card__link {
+    max-width: 640px;
+    max-height: 640px;
+    width: 100%;
+    height: 100vw;    
+    border: 1px solid var(--secondary-light-gray);
+    border-right: none;
+}
+
 .top-card {    
     max-width: 640px;
     max-height: 640px;
     width: 100%;
     height: 100vw;
+    padding-top: 160px;
     border: 1px solid var(--secondary-light-gray);
     border-right: none;
 }
@@ -360,6 +386,7 @@ line-height: 150%;
     max-height: 360px;
     width: 100%;
     height: 100vw;
+    padding-top: 90px;
     border: 1px solid var(--secondary-light-gray);
     border-right: none;
     border-top: none;
@@ -662,8 +689,91 @@ line-height: 150%;
     width: 100%;
     height: 100vw;
     background-color: var(--primary-black);
+    border: 1px solid var(--secondary-gray);
+    border-left: 0;
+    border-top: 0;
 }
 
 .city__footer {
     margin-top: 106px;
+}
+
+
+
+.footer__flex {
+    display: flex;
+    justify-content: center;
+    max-height: 300px;
+    height: 100vw;
+    background-color: var(--primary-black);  
+}
+
+.footer__navigation {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 120px;
+    padding-top: 72px;
+}
+
+.assortments {
+    list-style-type: none;    
+    padding-left: 0;
+}
+
+.for-buyer {
+    list-style-type: none;
+    padding-left: 0;
+
+}
+
+.company {
+    list-style-type: none;
+    padding-left: 0;
+
+}
+
+.we-accept {
+    list-style-type: none;
+    padding-left: 0;
+
+}
+
+.social-network {
+    list-style-type: none;
+    padding-left: 0;
+
+}
+
+.contents {
+    margin-bottom: 20px;
+}
+
+.contents__link {
+    margin: 0;
+    color: var(--primary-white);
+}
+
+.assortment {
+    margin-bottom: 10px;
+}
+
+.assortment__link { 
+    color: var(--primary-white);
+}
+
+.bottom__elements {
+    background-color: var(--primary-black);
+    border-top: 1px solid var(--secondary-gray);
+}
+
+.politics {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;   
+}
+
+.bottom__elements_link {
+    color: var(--secondary-gray);
 }
