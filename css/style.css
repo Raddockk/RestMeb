@@ -126,19 +126,6 @@ svg {
   line-height: 145%;
 }
 
-.body3h {
-  font-family: "Montserrat-Regular";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 0.875rem;
-  line-height: 145%;
-}
-
-.body3h:hover {
-  font-weight: 800;
-  transition: 0.25s ease-in-out;
-}
-
 .body4 {
   font-family: "Montserrat-Regular";
   font-style: normal;
