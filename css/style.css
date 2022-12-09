@@ -632,48 +632,28 @@ svg {
   grid-template-columns: 1fr 2fr;
 }
 
-.slider {
-  max-width: 1280px;
-  width: 100%;
-  max-height: 583px;
-  height: 100%;
-  border-bottom: 1px solid var(--secondary-gray);
-}
-
 .slider-panel {
   max-width: 1280px;
   max-height: 820px;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-color: var(--primary-black);
   border: 1px solid var(--secondary-gray);
   border-left: 0;
   border-top: 0;
 }
 
-.slider__manage {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+.slider {
+  max-width: 1280px;
+  max-height: 583px;
+  width: 100%; 
+  height: 100%; 
+  overflow: hidden;
+  transition: all ease 1s;
 }
 
-.count {
+.slider-line {
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  padding-right: 60px;
-  max-width: 800px;
-  max-height: 120px;
-  width: 100vw;
-  height: 100vh;
-  background-color: var(--primary-black);
-  border: 1px solid var(--secondary-gray);
-  border-left: 0;
-  border-top: 0;
-}
-
-.count__slider {
-  margin-right: 60px;
-  color: var(--primary-white);
 }
 
 .prev-next {
