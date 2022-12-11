@@ -10,7 +10,7 @@ function init(){
     images.forEach(item => {
         item.style.width = width + 'px';
         item.style.height = 'auto';
-    });
+    });    
     rollSlider();
 }
 

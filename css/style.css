@@ -495,7 +495,7 @@ svg {
   max-width: 640px;
   max-height: 640px;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   border: 1px solid var(--secondary-light-gray);
   border-right: none;
 }
@@ -504,7 +504,7 @@ svg {
   max-width: 640px;
   max-height: 640px;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   padding-top: 160px;
   border: 1px solid var(--secondary-light-gray);
   border-right: none;
@@ -518,7 +518,7 @@ svg {
   max-width: 640px;
   max-height: 360px;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   padding-top: 90px;
   border: 1px solid var(--secondary-light-gray);
   border-right: none;
@@ -530,7 +530,8 @@ svg {
   border-top: none;
 }
 
-.popular-card {
+.top-img,
+.bottom-img {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -539,22 +540,23 @@ svg {
 .popular__link {
   margin-left: 85px;
   margin-top: 150px;
+  margin-bottom: 50px;
   color: var(--primary-black);
 }
 
 .top__link {
   order: 2;
   margin-left: 50px;
-  margin-top: 95px;
-  margin-bottom: 0;
+  margin-top: 96px;
+  margin-bottom: 29px;
   color: var(--primary-black);
 }
 
 .bottom__link {
   order: 2;
   margin-left: 50px;
-  margin-top: 72px;
-  margin-bottom: 0;
+  margin-top: 72px;  
+  margin-bottom: 35;
   color: var(--primary-black);
 }
 
@@ -591,7 +593,7 @@ svg {
 
 .new-product__title {
   max-height: 260px;
-  height: 100vh;
+  height: 100%;
   margin-top: 0;
   background-color: var(--primary-black);
   border: 1px solid var(--secondary-gray);
@@ -649,11 +651,36 @@ svg {
   width: 100%; 
   height: 100%; 
   overflow: hidden;
-  transition: all ease 1s;
+  
+  border-bottom: 1px solid var(--secondary-gray);
 }
 
 .slider-line {
+  height: 100%;
   display: flex;
+  transition: all ease-in-out 1s;
+  
+}
+
+.slider__manage {
+  display: flex;
+  max-height: 120px;
+  height: 100%;
+}
+
+.slider__count {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  max-width: 800px;
+  width: 100%;  
+  border-bottom: 1px solid var(--secondary-gray);
+  border-right: 1px solid var(--secondary-gray);  
+}
+
+.slider__number {
+  margin-right: 60px;
+  color: var(--primary-white);
 }
 
 .prev-next {
@@ -671,12 +698,25 @@ svg {
   border-left: 0;
 }
 
+.slider-prev,
+.slider-next {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--primary-white);
+}
+
+.slider-prev:hover,
+.slider-next:hover {
+  color: var(--secondary-gray);
+}
+
 .slider-panel__btn {
   display: flex;
   justify-content: center;
   align-items: center;
   max-width: 320px;
-  width: 100vh;
+  width: 100%;
   background: var(--primary-white);
   border: 1px solid var(--secondary-gray);
   border-top: 0;
@@ -698,7 +738,7 @@ svg {
   max-width: 640px;
   max-height: 560px;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   border: 1px solid var(--secondary-light-gray);
   color: var(--primary-black);
 }
@@ -741,7 +781,7 @@ svg {
   max-width: 640px;
   max-height: 280px;
   width: 200%;
-  height: 100vh;
+  height: 100%;
   border: 1px solid var(--secondary-light-gray);
   border-left: 0;
 }
@@ -771,7 +811,7 @@ svg {
   max-width: 356px;
   max-height: 106px;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   margin-top: 0;
   color: var(--primary-white);
   padding-top: 100px;
@@ -784,7 +824,7 @@ svg {
   max-width: 1380px;
   max-height: 310px;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-color: var(--primary-black);
   border: 1px solid var(--secondary-gray);
   border-left: 0;
@@ -817,7 +857,7 @@ svg {
   max-width: 1380px;
   max-height: 513px;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-color: var(--primary-black);
   border: 1px solid var(--secondary-gray);
   border-left: 0;
@@ -832,7 +872,7 @@ svg {
   display: flex;
   justify-content: center;
   max-height: 300px;
-  height: 100vh;
+  height: 100%;
   background-color: var(--primary-black);
 }
 
@@ -901,3 +941,153 @@ svg {
 .bottom__elements_link {
   color: var(--secondary-gray);
 }
+
+@media (max-width:1600px) {
+  .h1 {
+    font-size: 2rem;
+  }
+
+  .h3 {
+    font-size: 1.125rem;
+  }
+
+  .h5 {
+    font-size: 1.125rem;
+  }
+
+  .body1 {
+    font-size: 0.875rem;
+  }
+
+  .container {
+    max-width: 1600px;
+  }
+
+  .header__firstlayer {
+    max-height: 50px;
+    height: 100%;
+  }
+
+  .menu__item {
+    margin-right: 35px;
+  }
+
+  .header__secondlayer {
+    max-height: 95px;    
+  }
+
+  .catalog__item {
+    margin-right: 50px;
+  }
+
+  .header__logo  {
+    width: 227px;
+    height: 32px;
+  }
+
+  .closet__img {
+    max-height: 753px;
+    height: 100%;
+  }
+
+  .about-us {
+    max-width: 1600px;
+    max-height: 753px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .about-us__block {
+    max-height: 753px;
+    height: 100vh;
+  }
+
+  .about-us__head {
+    max-width: 775.6px;
+    max-height: 283px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .about-us__title {
+    max-width: 527.6px;
+    width: 100%;
+  }
+
+  .about-us__info {
+    max-width: 775.6px;
+    max-height: 370px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .about-us__txt {
+    max-width: 376px;
+    width: 100%;
+  }
+
+  .catalog-btn {
+    max-height: 100px;
+    height: 100%;
+  }
+
+  .popular__cards {
+    max-height: 833px;
+    height: 100%;
+  }
+
+  .top-img img {
+    width: 227px;
+    height: 227px;
+  }
+
+  .bottom-img img {
+    width: 136.5px;
+    height: 93px;
+  }
+  
+  .card__link {
+    max-height: 527px;
+    height: 100%;
+  
+  }
+  
+  .popular__link {
+    margin-top: 130px;
+    margin-left: 75px;
+  }
+  
+  .top-card {
+    max-height: 527px;
+    height: 100%;
+    padding-top: 149px;
+  }
+  
+  .top__link {
+    margin-left: 25px ;
+    margin-bottom: 25px;
+  }
+  
+  .bottom-card {
+    max-height: 296px;
+    height: 100%;
+  }
+  
+  .bottom__link {
+    margin-left: 25px;
+  
+  }
+  
+  
+  .btn__all-categories {
+    max-height: 82px;
+    height: 100%;
+  }
+  
+ 
+
+  
+
+
+
+
