@@ -75,8 +75,7 @@ svg {
   line-height: 110%;
 }
 
-.h2 {
-}
+.h2 {}
 
 .h3 {
   font-family: "RF Dewi Expanded";
@@ -155,11 +154,16 @@ svg {
   cursor: pointer;
 }
 
+.arrow {
+  padding-top: 4px;
+  margin-left: 15px;
+}
+
 .header__firstlayer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 60px;  
+  height: 60px;
   padding-left: 80px;
   padding-right: 80px;
   border: 1px solid var(--secondary-light-gray);
@@ -229,7 +233,7 @@ svg {
 .call {
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
   margin-bottom: 0;
   color: var(--secondary-gray);
 }
@@ -239,7 +243,7 @@ svg {
 }
 
 .phone {
-  margin: 0;  
+  margin: 0;
   margin-left: 15px;
   color: var(--secondary-gray);
 }
@@ -277,11 +281,11 @@ svg {
   margin-right: 0;
 }
 
-.catalog__in-catalog{
+.catalog__in-catalog {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 15px;  
+  margin-right: 15px;
   color: var(--primary-black);
 }
 
@@ -290,7 +294,7 @@ svg {
 }
 
 .catalog__link {
-  margin: 0;  
+  margin: 0;
   color: var(--primary-black);
 }
 
@@ -353,7 +357,7 @@ svg {
 .about-us__block {
   max-width: 1280px;
   height: 905px;
-  width: 100%;  
+  width: 100%;
 }
 
 .about-us__head {
@@ -363,7 +367,7 @@ svg {
   padding-bottom: 75px;
   max-width: 960px;
   height: 345px;
-  width: 100%;  
+  width: 100%;
   border: 1px solid var(--secondary-light-gray);
   border-top: 0;
 }
@@ -379,11 +383,11 @@ svg {
   justify-content: flex-end;
   max-width: 960px;
   height: 440px;
-  width: 100%;  
+  width: 100%;
   padding-right: 75px;
   padding-top: 60px;
   border-left: 1px solid var(--secondary-light-gray);
-  border-right: 1px solid var(--secondary-light-gray); 
+  border-right: 1px solid var(--secondary-light-gray);
 }
 
 .about-us__txt {
@@ -401,7 +405,7 @@ svg {
   align-items: center;
   max-width: 1280px;
   height: 120px;
-  width: 100%;  
+  width: 100%;
   padding-right: 80px;
   background-color: var(--primary-black);
   border-top: 1px solid var(--secondary-light-gray);
@@ -411,69 +415,15 @@ svg {
 
 .catalog-btn:hover {
   background: var(--primary-white);
-  color: var(--primary-black);  
+  color: var(--primary-black);
 }
 
 .text-catalog {
   color: var(--primary-white);
 }
 
-.arrow-white,
-.arrow-black {
-  display: inline-flex;
-  position: relative;
-  width: 16px;
-  height: 14px;
-  margin-top: 5px;
-  margin-left: 25px;
-  cursor: pointer;
-}
-
-.arrow-white::before,
-.arrow-white::after,
-.arrow-black::before,
-.arrow-black::after {
-  content: "";
-  position: absolute;
-}
-
-.arrow-white::before,
-.arrow-black::before {
-  width: 16px;
-  height: 2px;
-  right: 4px;
-  top: 8px;
-}
-
-.arrow-white::after,
-.arrow-black::after {
-  top: 4px;
-  width: 10px;
-  height: 10px;
-
-  transform: rotate(45deg);
-}
-
-.arrow-white::before {
-  background-color: var(--primary-white);
-}
-
-.arrow-black::before {
-  background-color: var(--primary-black);
-}
-
-.arrow-white::after {
-  border-top: 2px solid var(--primary-white);
-  border-right: 2px solid var(--primary-white);
-}
-
-.arrow-black::after {
-  border-top: 2px solid var(--primary-black);
-  border-right: 2px solid var(--primary-black);
-}
-
 .popular__categories {
-  position: relative;  
+  position: relative;
 }
 
 .popular__cards {
@@ -495,7 +445,7 @@ svg {
 .top-card {
   max-width: 640px;
   height: 640px;
-  width: 100%;  
+  width: 100%;
   padding-top: 160px;
   border: 1px solid var(--secondary-light-gray);
   border-right: none;
@@ -508,11 +458,11 @@ svg {
 .bottom-card {
   max-width: 640px;
   height: 360px;
-  width: 100%;  
+  width: 100%;
   padding-top: 90px;
   border-bottom: 1px solid var(--secondary-light-gray);
   border-left: 1px solid var(--secondary-light-gray);
-  
+
 }
 
 .bottom-card:last-child {
@@ -534,16 +484,16 @@ svg {
   color: var(--primary-black);
 }
 
-.top__link {  
+.top__link {
   margin-left: 50px;
   margin-top: 96px;
   margin-bottom: 29px;
   color: var(--primary-black);
 }
 
-.bottom__link {  
+.bottom__link {
   margin-left: 50px;
-  margin-top: 72px;  
+  margin-top: 72px;
   margin-bottom: 35;
   color: var(--primary-black);
 }
@@ -559,7 +509,7 @@ svg {
   display: flex;
   align-items: center;
   height: 100px;
-  max-width: 640px;  
+  max-width: 640px;
   width: 100%;
   padding-left: 50px;
   border-top: 1px solid var(--secondary-light-gray);
@@ -569,7 +519,7 @@ svg {
 .btn__all-categories:hover {
   background: var(--primary-black);
   color: var(--primary-white);
-  
+
 }
 
 .text-categories {
@@ -577,7 +527,7 @@ svg {
 }
 
 .new-product__title {
-  height: 260px;  
+  height: 260px;
   margin-top: 0;
   background-color: var(--primary-black);
   border: 1px solid var(--secondary-gray);
@@ -596,7 +546,7 @@ svg {
 .new-product__create {
   max-width: 640px;
   height: 820px;
-  width: 100%;  
+  width: 100%;
   margin-top: 0;
   background-color: var(--primary-black);
   border: 1px solid var(--secondary-gray);
@@ -605,7 +555,7 @@ svg {
 
 .create__link {
   max-width: 400px;
-  width: 100%;  
+  width: 100%;
   margin-top: 80px;
   margin-left: 85px;
   color: var(--primary-white);
@@ -630,10 +580,10 @@ svg {
 .slider {
   max-width: 1280px;
   max-height: 583px;
-  width: 100%; 
-  height: 100%; 
+  width: 100%;
+  height: 100%;
   overflow: hidden;
-  
+
   border-bottom: 1px solid var(--secondary-gray);
 }
 
@@ -641,13 +591,13 @@ svg {
   height: 100%;
   display: flex;
   transition: all ease-in-out 1s;
-  
+
 }
 
 .slider__manage {
   display: flex;
   height: 120px;
-  
+
 }
 
 .slider__count {
@@ -655,9 +605,9 @@ svg {
   align-items: center;
   justify-content: flex-end;
   max-width: 800px;
-  width: 100%;  
+  width: 100%;
   border-bottom: 1px solid var(--secondary-gray);
-  border-right: 1px solid var(--secondary-gray);  
+  border-right: 1px solid var(--secondary-gray);
 }
 
 .slider__number {
@@ -672,11 +622,10 @@ svg {
   max-width: 160px;
   height: 120px;
   width: 100%;
-  
   padding: 0 45px;
   background-color: var(--primary-black);
   border-bottom: 1px solid var(--secondary-gray);
-  border-right: 1px solid var(--secondary-gray);  
+  border-right: 1px solid var(--secondary-gray);
 }
 
 .slider-prev,
@@ -685,6 +634,7 @@ svg {
   border: none;
   cursor: pointer;
   color: var(--primary-white);
+  transition: 0.5s ease-in-out;
 }
 
 .slider-prev:hover,
@@ -718,7 +668,7 @@ svg {
 .brend__partners {
   max-width: 640px;
   height: 560px;
-  width: 100%;  
+  width: 100%;
   border: 1px solid var(--secondary-light-gray);
   color: var(--primary-black);
 }
@@ -739,9 +689,9 @@ svg {
   align-items: center;
   max-width: 320px;
   height: 280px;
-  width: 100%;  
+  width: 100%;
   border-top: 1px solid var(--secondary-light-gray);
-  border-right: 1px solid var(--secondary-light-gray); 
+  border-right: 1px solid var(--secondary-light-gray);
 }
 
 .brend__card:nth-child(5) {
@@ -758,7 +708,7 @@ svg {
   align-items: center;
   max-width: 640px;
   height: 280px;
-  width: 200%;  
+  width: 200%;
   border: 1px solid var(--secondary-light-gray);
   border-left: 0;
   transition: 0.5s ease-in-out;
@@ -766,7 +716,7 @@ svg {
 
 .brend__btn:hover {
   background: var(--primary-black);
-  color: var(--primary-white);  
+  color: var(--primary-white);
 }
 
 .footer-first-layer {
@@ -778,7 +728,7 @@ svg {
 .connect {
   max-width: 640px;
   height: 823px;
-  width: 100%;  
+  width: 100%;
   background-color: var(--primary-black);
   border: 1px solid var(--secondary-gray);
 }
@@ -799,7 +749,7 @@ svg {
   grid-template-columns: 1fr 3fr;
   max-width: 1380px;
   height: 310px;
-  width: 100%;  
+  width: 100%;
   background-color: var(--primary-black);
   border: 1px solid var(--secondary-gray);
   border-left: 0;
@@ -829,7 +779,7 @@ svg {
 .footer__link {
   max-width: 620px;
   height: 40px;
-  width: 100%;  
+  width: 100%;
   margin: 0;
   padding-left: 80px;
   padding-bottom: 10px;
@@ -841,7 +791,7 @@ svg {
   grid-template-columns: 1fr 3fr;
   max-width: 1380px;
   height: 513px;
-  width: 100%;  
+  width: 100%;
   background-color: var(--primary-black);
   border: 1px solid var(--secondary-gray);
   border-left: 0;
@@ -856,14 +806,14 @@ svg {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 300px;  
+  height: 300px;
   background-color: var(--primary-black);
 }
 
 .footer__navigation {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 120px;  
+  gap: 120px;
 }
 
 .assortments {
@@ -941,7 +891,7 @@ svg {
   .body1 {
     font-size: 0.875rem;
   }
-    
+
   .container {
     max-width: 1600px;
   }
@@ -956,14 +906,14 @@ svg {
   }
 
   .header__secondlayer {
-    height: 95px;    
+    height: 95px;
   }
 
   .catalog__item {
     margin-right: 50px;
   }
 
-  .header__logo  {
+  .header__logo {
     width: 227px;
     height: 32px;
   }
@@ -976,17 +926,17 @@ svg {
   .about-us {
     max-width: 1600px;
     height: 753px;
-    width: 100%;    
+    width: 100%;
   }
 
   .about-us__block {
-    height: 753px;    
+    height: 753px;
   }
 
   .about-us__head {
     max-width: 775.6px;
     height: 283px;
-    width: 100%; 
+    width: 100%;
   }
 
   .about-us__title {
@@ -997,7 +947,7 @@ svg {
   .about-us__info {
     max-width: 775.6px;
     height: 370px;
-    width: 100%;    
+    width: 100%;
   }
 
   .about-us__txt {
@@ -1006,11 +956,11 @@ svg {
   }
 
   .catalog-btn {
-    height: 100px;    
+    height: 100px;
   }
 
   .popular__cards {
-    height: 823px;    
+    height: 823px;
   }
 
   .top-img img {
@@ -1022,42 +972,42 @@ svg {
     width: 136.5px;
     height: 93px;
   }
-  
+
   .card__link {
-    height: 527px; 
+    height: 527px;
   }
-  
+
   .popular__link {
     margin-top: 130px;
     margin-left: 75px;
   }
-  
+
   .top-card {
-    height: 527px;    
+    height: 527px;
     padding-top: 149px;
   }
-  
+
   .top__link {
-    margin-left: 25px ;
+    margin-left: 25px;
     margin-bottom: 25px;
   }
-  
+
   .bottom-card {
     height: 296px;
-    
+
   }
-  
+
   .bottom__link {
     margin-left: 25px;
-  
+
   }
-    
+
   .btn__all-categories {
-    height: 82px;    
+    height: 82px;
   }
 
   .new-product__title {
-    height: 200px;    
+    height: 200px;
   }
 
   .new-product__link {
@@ -1071,7 +1021,7 @@ svg {
     height: 100vh;
   }
 
-  .new-product__create {    
+  .new-product__create {
     height: 100%;
   }
 
@@ -1088,15 +1038,15 @@ svg {
   .slider__count,
   .prev-next,
   .slider-panel__btn {
-    height: 100px;    
+    height: 100px;
   }
 
   .brend__catalog {
-    height: 460px;    
+    height: 460px;
   }
 
   .brend__partners {
-    height: 460px;    
+    height: 460px;
   }
 
   .brend__title {
@@ -1108,23 +1058,23 @@ svg {
   }
 
   .brend__cards {
-    height: 460px;    
+    height: 460px;
   }
 
   .brend__card {
-    height: 241px;    
+    height: 241px;
   }
 
   .brend__btn {
-    height: 241px;    
+    height: 241px;
   }
 
   .footer-first-layer {
-    height: 687.5px;    
+    height: 687.5px;
   }
 
   .connect {
-   height: 687.5px;    
+    height: 687.5px;
   }
 
   .how-to-connect {
@@ -1135,13 +1085,13 @@ svg {
     padding-left: 65px;
     padding-top: 90px;
   }
-  
+
   .how-to-call {
     margin-top: 90px;
   }
 
   .how-to-find {
-    height: 403px;    
+    height: 403px;
   }
 
   .contacts__footer {
@@ -1153,6 +1103,6 @@ svg {
   }
 
   .footer__flex {
-    height: 250px;  
+    height: 250px;
   }
 }
