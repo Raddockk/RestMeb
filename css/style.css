@@ -43,7 +43,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 0;
   /* background-image: url(data:image/png;base64,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);
   background-color: #ffffff; */
 }
@@ -503,15 +503,13 @@ svg {
 
 .top__link {
   margin-left: 50px;
-  margin-top: 96px;
-  margin-bottom: 29px;
+  margin-top: 96px;  
   color: var(--primary-black);
 }
 
 .bottom__link {
   margin-left: 50px;
-  margin-top: 72px;
-  margin-bottom: 35;
+  margin-top: 72px;  
   color: var(--primary-black);
 }
 
@@ -537,6 +535,14 @@ svg {
   background: var(--primary-black);
   color: var(--primary-white);
 
+}
+
+.btn__all-categories:hover svg {
+  transform: translateX(10px);
+}
+
+.btn__all-categories:hover p {
+  text-shadow: 10px 5px 5px var(--primary-white);
 }
 
 .text-categories {
@@ -573,7 +579,7 @@ svg {
 .create__link {
   max-width: 400px;
   width: 100%;
-  margin-top: 80px;
+  padding-top: 80px;
   margin-left: 85px;
   color: var(--primary-white);
 }
@@ -633,14 +639,21 @@ svg {
 .prev-next {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   max-width: 160px;
   height: 120px;
-  width: 100%;
-  padding: 0 45px;
+  width: 100%;  
   background-color: var(--primary-black);
   border-bottom: 1px solid var(--secondary-gray);
   border-right: 1px solid var(--secondary-gray);
+}
+
+.slider-next {
+  padding-left: 20px;
+}
+
+.slider-prev {
+  padding-right: 20px;
 }
 
 .slider-prev,
@@ -673,6 +686,14 @@ svg {
 .slider-panel__btn:hover {
   background: var(--primary-black);
   color: var(--primary-white);
+}
+
+.slider-panel__btn:hover svg {
+  transform: translateX(10px);
+}
+
+.slider-panel__btn:hover p {
+  text-shadow: 10px 5px 5px var(--primary-white);
 }
 
 .brend__catalog {
@@ -734,7 +755,15 @@ svg {
   color: var(--primary-white);
 }
 
-.footer-first-layer {
+.brend__btn:hover svg {
+  transform: translateX(10px);
+}
+
+.brend__btn:hover p {
+  text-shadow: 10px 5px 5px var(--primary-white);
+}
+
+.connect-with-us {
   position: relative;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -749,14 +778,11 @@ svg {
 }
 
 .connect__link {
-  max-width: 356px;
-  max-height: 106px;
-  width: 100%;
-  height: 100%;
-  margin-top: 0;
+  width: 356px;
+  height: 106px;    
   color: var(--primary-white);
-  padding-top: 100px;
-  padding-left: 80px;
+  margin-top: 100px;
+  margin-left: 80px;  
 }
 
 .how-to-connect {
@@ -1004,8 +1030,7 @@ svg {
   }
 
   .top__link {
-    margin-left: 25px;
-    margin-bottom: 25px;
+    margin-left: 25px;    
   }
 
   .bottom-card {
@@ -1085,7 +1110,7 @@ svg {
     height: 241px;
   }
 
-  .footer-first-layer {
+  .connect-with-us {
     height: 687.5px;
   }
 
@@ -1098,8 +1123,8 @@ svg {
   }
 
   .connect__link {
-    padding-left: 65px;
-    padding-top: 90px;
+    margin-left: 65px;
+    margin-top: 90px;
   }
 
   .how-to-call {
@@ -1250,4 +1275,109 @@ svg {
   .top__link {
     margin-top: 67.75px;
   }
+
+  .bottom-card {
+    height: 256px;
+    padding-top: 65px;
+  }
+
+  .bottom__link {
+    margin-top: 50px;
+  }
+
+  .btn__all-categories {
+    height: 71px;
+  }
+
+  .new-product__title {
+    height: 184px;
+  }
+
+  .new-product__link {
+    max-width: 341.5px;
+    padding-top: 105px;
+  }
+
+  .new-product__divider,
+  .new-product__create,
+  .slider-panel {
+    height: 584px;
+  }
+
+  .create__link {
+    max-width: 284.5px;
+    margin-top: 0;
+    padding-top: 57px;
+    margin-left: 58px;
+  }
+  
+  .slider,
+  .slider-line {
+    height: 415px;
+  }
+
+  .slider__manage,
+  .slider__count,
+  .prev-next,
+  .slider-panel__btn {
+    height: 86px;
+  }
+
+  .prev-next {
+    max-width: 113px;
+    width: 100%;    
+  }
+
+  .slider-next {
+    padding-left: 20px;
+  }
+
+  .slider-prev {
+    padding-right: 20px;
+  }
+
+  .slider-panel__btn {
+    max-width: 228px;
+    width: 100%;
+  }
+
+  .brend__catalog,
+  .brend__partners,
+  .brend__cards {
+    height: 398px;
+  }
+
+  .brend__title {
+    margin-top: 85px;
+    margin-left: 60px;
+  }
+
+  .brend__card,
+  .brend__btn {
+    height: 199px;
+  }  
+
+  .connect-with-us,
+  .connect {
+    height: 584.66px;
+  }  
+
+  .how-to-connect {
+    height: 219.87px;
+  }
+
+  .contacts__footer,
+  .how-to-call {
+    margin-top: 70px;
+  }
+
+  .how-to-find {
+    height: 364.79px;
+  }  
+
+  .politics {
+    margin-left: 57px;
+    margin-right: 57px;
+  }
+  
 }
